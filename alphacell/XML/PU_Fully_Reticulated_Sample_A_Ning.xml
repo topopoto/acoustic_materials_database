@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<alphacell>
+  <spectrum max="10000.0" min="250.0" nb="100" noctave="3" scale="log"/>
+  <emissionfluid params="[20.0, 101325.0, 45.0]" type="1"/>
+  <receptionfluid params="[]" type="0"/>
+  <geometry Lx="0.507" Ly="0.602" estStrongCoupling="false" orientation="0" planeProjection="false" radius="1.0" radiusRef="0" type="0" windowingType="0"/>
+  <nbProcs nbProcs="8"/>
+  <flexlmPath flexlmPath=""/>
+  <load excitation="diffusefield" inputParameter="90" termination="rigid"/>
+  <computations computeAcoustic="true" computeThermal="false"/>
+  <layers>
+    <layer E="100e3" TTS_Ta="20" TTS_type="0" WLF_C1="0" WLF_C2="0" WLF_Tref="20" WLF_law="false" acousticmodel="JCAL" addLayer="1" alpha_inf="1.05" elasticmodel="Elastic (isotropic)" eta="0.01" heterogeneousmodel="None" k_0_prime="24.3e-9" lambda="208.7e-6" lambda_prime="513e-6" name="PU Fully Reticulated Sample A (Ning)" nu="0" porosity="0.978" radius="0" resistivity="2728.6135693215338" rho="68.9" thermalmodel="None" thickness="0.015"/>
+  </layers>
+</alphacell>
